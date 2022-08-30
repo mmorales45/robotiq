@@ -20,7 +20,9 @@ add_message_files(
 
 catkin_python_setup()
 
-generate_messages()
+generate_messages(
+  DEPENDENCIES
+)
 
 ###################################
 ## catkin specific configuration ##
